@@ -7,7 +7,7 @@ class MessagesController < ApplicationController
       reply with 'dev needed' and I'll text you back from my personal cell. :)",
       to: message.number,
       from: "+15005550006"
-      )  
+    )  
   end 
 
   def new 
