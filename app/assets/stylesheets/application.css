@@ -23,11 +23,15 @@
  }
 
  #slider{
+  vertical-align: left;
   background: url(typewriter.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  min-height: 420px;
+  min-height: 480px;
+  margin-left: 0px;
+  padding: 0;
+  
  }
 
  .text{
@@ -42,7 +46,7 @@
   max-height: 150px;
   max-width: 150px;
   margin-left: 90px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .skills{
@@ -55,10 +59,6 @@
   border-radius: 10px
 }
 
-img{
-  width: 100%;
-  height: 100%;
-}
 
 .md-display{
   margin-top: 1000px;

@@ -7,8 +7,7 @@ class MessagesController < ApplicationController
       reply with 'dev needed' and I'll text you back from my personal cell. :)",
       to: message.number,
       from: "+15005550006"
-      )
-    end  
+      )  
   end 
 
   def new 
@@ -29,5 +28,6 @@ class MessagesController < ApplicationController
 
   def message_params
     params.require(Message).permit(:number, :name, :text_message)
-  end   
+  end
+
 end

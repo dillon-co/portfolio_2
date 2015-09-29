@@ -15,66 +15,60 @@
      
      
      
-      <div class="row">
-        <div class="large-12 columns">
-        <div id="slider">
 
-          <!-- image_tag('typewriter_cropped.jpg')  -->
-        </div>
-        
-        <hr/>
-        </div>
-      </div>
-      
+<div id="slider">
+</div>
+
+
      
      
-      <div class="row">
-        <div class="skills">
-          <h2>Skills</h2>
-      </div>
-        <div class="large-4 columns ">
-          <img class="photo" src="http://bit.ly/1RcgjTy"/>
-          <h4 class="skills">Ruby</h4>
-        </div>
-        
-        <div class="large-4 columns">
-          <img class="photo" src="http://bit.ly/1MVHofc"/>
-          <h4 class="skills">Ruby On Rails</h4>
-        </div>
-        
-        <div class="large-4 columns">
-          <img class="photo" src="http://bit.ly/1iFXBI3"/>
-          <h4 class="skills">Javascript</h4>
-        </div>
-        </div>
-        <div class="row">
-          <div class="large-4 columns">
-            <img class="photo" src="http://bit.ly/1GdegrY"/>
-            <h4 class="skills">AngularJS</h4>
-          </div>
-          <div class="large-4 columns">
-            <img class="photo"src="http://bit.ly/1h4FwSY"/>
-            <h4 class="skills">Python</h4>
-          </div>
-          <div class="large-4 columns">
-            <img class="photo"src="http://bit.ly/1iXiq2r"/>
-            <h4 class="skills">node.js</h4>
-          </div>
-        </div> 
-        <div class="row">
-          <div class="large-4 columns">
-            <img class="photo" src="http://bit.ly/1LKWSRC"/>
-            <h4 class="skills">PostgreSQL</h4>
-          </div>
-          <div class="large-4 columns">
-            <img class="photo" src="http://bit.ly/1L12h6n"/>
-            <h4 class="skills">GitHub</h4>
-          </div>
-          <div class="large-4 columns">
-            <img class="photo" src="http://bit.ly/1YKTawK"/>
-            <h4 class="skills">Photography</h4>
-          </div>
-        </div> 
+<div class="row">
+<div class="skills">
+  <h2>Skills</h2>
+</div>
+<div class="large-4 columns ">
+  <img class="photo" src="http://bit.ly/1RcgjTy"/>
+  <h4 class="skills">Ruby</h4>
+</div>
+
+<div class="large-4 columns">
+  <img class="photo" src="http://bit.ly/1MVHofc"/>
+  <h4 class="skills">Ruby On Rails</h4>
+</div>
+
+<div class="large-4 columns">
+  <img class="photo" src="http://bit.ly/1iFXBI3"/>
+  <h4 class="skills">Javascript</h4>
+</div>
+</div>
+<div class="row">
+  <div class="large-4 columns">
+    <img class="photo" src="http://bit.ly/1GdegrY"/>
+    <h4 class="skills">AngularJS</h4>
+  </div>
+  <div class="large-4 columns">
+    <img class="photo"src="http://bit.ly/1h4FwSY"/>
+    <h4 class="skills">Python</h4>
+  </div>
+  <div class="large-4 columns">
+    <img class="photo"src="http://bit.ly/1iXiq2r"/>
+    <h4 class="skills">node.js</h4>
+  </div>
+</div> 
+<div class="row">
+  <div class="large-4 columns">
+    <img class="photo" src="http://bit.ly/1LKWSRC"/>
+    <h4 class="skills">PostgreSQL</h4>
+  </div>
+  <div class="large-4 columns">
+    <img class="photo" src="http://bit.ly/1L12h6n"/>
+    <h4 class="skills">GitHub</h4>
+  </div>
+  <div class="large-4 columns">
+    <img class="photo" src="http://bit.ly/1YKTawK"/>
+    <h4 class="skills">Photography</h4>
+  </div>
+</div> 
 <!--Ruby
     Ruby On Rails
     JavaScript
@@ -86,51 +80,50 @@
     Photography
          -->
      
-    <div class="row">
-        <div class="large-12 columns">
-        
-          <div class="panel text-box">
-            <h4>Send me a text!</h4>
-                
-            <div class="row">
-              <div class="text">
-                <p>I'd love to hear from you, the modern way!.</p>
-              </div>
-              <div class="text">
-                <%= form_for Message.new do |f| %>
-                  <%= f.label "Your Name" %>
-                  <%= f.text_field :name %>
-                  <%= f.label "Your Number" %>
-                  <%= f.text_field :number %>
-                  <%= f.label "Message" %>
-                  <%= f.text_area :text_message %>
-                  <%= f.submit "Sent it!", class:"button" %>
-                <% end %>
-              </div>
-            </div>
-          </div>
+<div id="slider">
+  <div class="large-12 columns">
+  
+    <div class="panel text-box">
+      <h4>Send me a text!</h4>
           
+      <div class="row">
+        <div class="text">
+          <p>I'd love to hear from you, the modern way!.</p>
+        </div>
+        <div class="text">
+          <%= form_for Message.new do |f| %>
+            <%= f.label "Your Name" %>
+            <%= f.text_field :name %>
+            <%= f.label "Your Number" %>
+            <%= f.text_field :number %>
+            <%= f.label "Message" %>
+            <%= f.text_area :text_message %>
+            <%= f.submit "Sent it!", class:"button" %>
+          <% end %>
         </div>
       </div>
-     
-       
-      
-      <footer class="row">
-        <div class="large-12 columns">
-          <hr/>
-          <div class="row">
-            <div class="large-6 columns">
-              <p>© Copyright no one at all. Go to town.</p>
-            </div>
-            <div class="large-6 columns">
-              <ul class="inline-list right">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-              </ul>
-            </div>
-          </div>
-        </div> 
-      </footer>
+    </div>
     
+  </div>
+</div>
+
+ 
+
+<footer class="row">
+  <div class="large-12 columns">
+    <hr/>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>© Copyright no one at all. Go to town.</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="inline-list right">
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+</footer>
