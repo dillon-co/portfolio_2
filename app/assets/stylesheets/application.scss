@@ -33,6 +33,16 @@
   padding: 0;
  }
 
+ #slider2{
+  vertical-align: left;
+  background-image: image-url(mountain_portfolio_background);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 480px;
+  margin-left: 0px;
+  padding: 0;
+ }
 .icons{
   margin-bottom: 60px;
 }
@@ -59,8 +69,14 @@
 }
 
 .text-box{
-  margin-top: 50px;
-  border-radius: 10px
+  margin-top: 5px;
+  border-radius: 10px;
+  max-width: 600px;
+  max-height: 460px;
+}
+
+.submit{
+  margin-bottom: 20px;
 }
 
 
