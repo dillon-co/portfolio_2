@@ -76,6 +76,22 @@
   max-width: 600px;
   max-height: 460px;
   float: right;
+  background-color: rgba(0,0,0,0.70);
+  border-color: black;
+  h4{
+    margin-left: 36px;
+    color:white;
+  }
+  p{
+    color:white;
+  }
+  label {
+    color:white;
+  }; 
+}
+
+.text{
+  color:white;
 }
 
 .submit{
