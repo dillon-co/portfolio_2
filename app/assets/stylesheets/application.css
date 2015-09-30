@@ -31,8 +31,11 @@
   min-height: 480px;
   margin-left: 0px;
   padding: 0;
-  
  }
+
+.icons{
+  margin-bottom: 60px;
+}
 
  .text{
   margin: 40px;
@@ -52,6 +55,7 @@
 .skills{
   text-decoration: underline;
   text-align: center;
+  margin-top: 50px;
 }
 
 .text-box{
