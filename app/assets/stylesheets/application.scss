@@ -37,7 +37,7 @@
 
  #slider2{
   vertical-align: left;
-  background-image: image-url(mountain_portfolio_background_crop2);
+  background-image: url(http://chaninicholas.com/wp-content/uploads/2014/07/lion-black-background.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -76,10 +76,9 @@
   max-width: 600px;
   max-height: 460px;
   float: right;
-  background-color: rgba(0,0,0,0.70);
+  /*background-color: rgba(0,0,0,0.70);
   border-color: black;
   h4{
-    margin-left: 36px;
     color:white;
   }
   p{
@@ -87,7 +86,7 @@
   }
   label {
     color:white;
-  }; 
+  }; */
 }
 
 .text{
