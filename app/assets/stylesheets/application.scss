@@ -16,7 +16,7 @@
  *= require foundation_and_overrides
 
  */
-
+@import 'foundation-icons';
 
 
  .button{
@@ -31,8 +31,6 @@
   background-position: center center;
   background-size: cover;
   min-height: 480px;
-  margin-left: 0px;
-  padding: 0;
  }
 
  #slider2{
@@ -42,11 +40,27 @@
   background-position: center center;
   background-size: cover;
   min-height: 480px;
-  margin-left: 0px;
-  padding: 0;
+  vertical-align: top;
  }
 .icons{
-  margin-bottom: 60px;
+  margin-bottom: 0px;
+  background-image: image-url(china_mountains);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  /*min-height: 480px;*/
+  vertical-align: top;
+}
+
+.title-text{
+  margin-top: 0px;
+  text-align: center;
+
+}
+
+
+.skill-tron{
+  background-color: rgba(0,0,0,0.3);
 }
 
  .text{
@@ -55,19 +69,31 @@
 
 .name{
   font-weight: 500;
+  color:white;
 }
 
 .photo{
-  max-height: 150px;
-  max-width: 150px;
-  margin-left: 90px;
-  margin-top: 40px;
+  max-height: 75px;
+  max-width: 75px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 .skills{
   text-decoration: underline;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
+}
+
+image{
+  border-radius: 100px;
+}
+
+.photo-icon{
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 75px;
+  margin: auto;
 }
 
 .text-box{
@@ -88,6 +114,7 @@
     color:white;
   }; */
 }
+
 
 .text{
   color:white;
@@ -120,8 +147,23 @@
   margin-left: 20px;
  }
 
-
-body{
-  margin-left: 0px;
+.top-div{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 1000px;
+  text-align: center;
 }
+
+.fi-monitor{
+  font-size: 200px;
+  text-align: center;
+}
+
+.social-icons{
+  font-size: 50px;
+  vertical-align: center;
+  text-align: center
+}
+
+
 
