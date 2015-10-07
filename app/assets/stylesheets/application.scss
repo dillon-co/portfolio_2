@@ -93,12 +93,23 @@
   }
 }
 
+h2{
+  font-weight: bold;
+  text-align: center;
+}
+
+.mail-box{
+  text-align:center;
+}
 
 .skills{
   /*text-decoration: underline;*/
   text-align: center;
   margin-top: 10px;
-  h2{color:white;}
+  h2{
+    color:white;
+    font-weight: bold;
+  }
 }
 
 image{
@@ -171,9 +182,18 @@ image{
 }
 
 .fi-monitor{
-  font-size: 200px;
-
+  font-size: 150px;
+  margin-left: 10px;
   /*text-align: center;*/
+}
+.fi-mobile{
+  font-size: 100px;
+  margin: auto;
+}
+
+.fi-laptop{
+  font-size: 100px;
+  margin: auto;
 }
 
 @media screen and (max-width: 640px){
