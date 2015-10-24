@@ -24,6 +24,43 @@
   /*border-radius: 35px;*/
  }
 
+ #slider2{
+  vertical-align: left;
+  background-image: url(http://chaninicholas.com/wp-content/uploads/2014/07/lion-black-background.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  min-height: 480px;
+  vertical-align: top;
+  .top-div{
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 1000px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+  }
+  .photo-icon{
+   /* position: relative;
+    margin-top: 30px;*/
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 75px;
+    margin: auto;
+  }
+  .social-icons{
+    font-size: 50px;
+    vertical-align: center;
+    text-align: center
+  }
+ }
+
+  .title-text{
+    margin-top: 0px;
+    text-align: center;
+    h2{font-weight: bold;}
+  }
+ 
  #slider{
   vertical-align: left;
   background-image: image-url(typewriter);
@@ -33,30 +70,28 @@
   min-height: 480px;
  }
 
- #slider2{
-  vertical-align: left;
-  background-image: url(http://chaninicholas.com/wp-content/uploads/2014/07/lion-black-background.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  min-height: 480px;
-  vertical-align: top;
- }
 .icons{
   margin-bottom: 0px;
-  background-image: image-url(china_mountains);
+  background-image: image-url(workbench);
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   /*min-height: 480px;*/
   vertical-align: top;
+  .skills{
+    .buffer{
+      size: 50px;
+    }
+    /*text-decoration: underline;*/
+    text-align: center;
+    h4{ color: white;}
+    h2{
+      color:white;
+      font-weight: bold;
+    }
+  }
 }
 
-.title-text{
-  margin-top: 0px;
-  text-align: center;
-  h2{font-weight: bold;}
-}
 
 
 .skill-tron{
@@ -102,26 +137,11 @@ h2{
   text-align:center;
 }
 
-.skills{
-  /*text-decoration: underline;*/
-  text-align: center;
-  margin-top: 10px;
-  h2{
-    color:white;
-    font-weight: bold;
-  }
-}
 
 image{
   border-radius: 100px;
 }
 
-.photo-icon{
-  max-width: 180px;
-  max-height: 180px;
-  border-radius: 75px;
-  margin: auto;
-}
 
 .text-box{
   margin-top: 5px;
@@ -174,12 +194,6 @@ image{
   margin-left: 20px;
  }
 
-.top-div{
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 1000px;
-  text-align: center;
-}
 
 .fi-monitor{
   font-size: 150px;
@@ -205,11 +219,6 @@ image{
 }
 }
 
-.social-icons{
-  font-size: 50px;
-  vertical-align: center;
-  text-align: center
-}
 
 
 

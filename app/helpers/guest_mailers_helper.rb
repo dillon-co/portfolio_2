@@ -1,0 +1,2 @@
+module GuestMailersHelper
+end
