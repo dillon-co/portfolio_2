@@ -61,6 +61,34 @@
     h2{font-weight: bold;}
   }
  
+
+.icons{
+  margin-bottom: 0px;
+  background-image: image-url(china_mountains);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  /*min-height: 480px;*/
+  vertical-align: top;
+  .skill-tron{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    .skills{
+      .buffer{
+        size: 50px;
+      }
+      /*text-decoration: underline;*/
+      text-align: center;
+      h4{ color: white;}
+      h2{
+        color:white;
+        font-weight: bold;
+      }
+    }
+  } 
+}
+
+
  #slider{
   vertical-align: left;
   background-image: image-url(typewriter);
@@ -70,34 +98,6 @@
   min-height: 480px;
  }
 
-.icons{
-  margin-bottom: 0px;
-  background-image: image-url(workbench);
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  /*min-height: 480px;*/
-  vertical-align: top;
-  .skills{
-    .buffer{
-      size: 50px;
-    }
-    /*text-decoration: underline;*/
-    text-align: center;
-    h4{ color: white;}
-    h2{
-      color:white;
-      font-weight: bold;
-    }
-  }
-}
-
-
-
-.skill-tron{
-  background-color: rgba(0,0,0,0.2);
-  width: 100%;
-}
 
  .text{
   margin: 40px;
@@ -149,23 +149,12 @@ image{
   max-width: 600px;
   max-height: 460px;
   float: right;
-  /*background-color: rgba(0,0,0,0.70);
-  border-color: black;
-  h4{
+  .text{
     color:white;
   }
-  p{
-    color:white;
-  }
-  label {
-    color:white;
-  }; */
 }
 
 
-.text{
-  color:white;
-}
 
 .submit{
   margin-bottom: 20px;
