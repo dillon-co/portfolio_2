@@ -20,7 +20,7 @@ class MessagesController < ApplicationController
       redirect_to root_path
       send_validation_message(@message)
     else
-      render :new
+      render :error
     end  
   end
 
