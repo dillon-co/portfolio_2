@@ -33,9 +33,11 @@
   min-height: 480px;
   vertical-align: top;
   .top-div{
-    max-width: 300px; 
-    max-height: 300px;
-    border-radius: 1000px;
+    // max-width: 400px; 
+    // max-height: 10px;
+    // border-radius: 1000px;
+    margin-left: auto; 
+    margin-right: auto;
     text-align: center;
     background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
@@ -43,22 +45,34 @@
   .photo-icon{
    /* position: relative;
     margin-top: 30px;*/
-    max-width: 180px;
+    max-width: 400px;
     max-height: 180px;
-    border-radius: 75px;
+    h1{ color: white;}
+    border: solid 4px white;
     margin: auto;
   }
   .social-icons{
+    margin-top: 10px;
     font-size: 50px;
     vertical-align: center;
-    text-align: center
+    text-align: center;
+    h6{ color: white;}
+    .github{h6{float:right}}
+    .linkedin{h6{float:left;}}
   }
  }
 
   .title-text{
-    margin-top: 0px;
+    .text{
+      margin-left: auto;
+      margin-right: auto;
+      // border: solid 6px;
+      max-width: 500px;
+    }
+    margin-top: 10px;
     text-align: center;
-    h2{font-weight: bold;}
+    h2{font-weight: bold;} 
+    span{margin-top: 10px;}  
   }
  
 
@@ -77,6 +91,12 @@
       .buffer{
         size: 50px;
       }
+      .skills-title{
+        border: solid 6px white;
+        max-width: 325px;
+        margin-left: auto;
+        margin-right: auto;
+        }
       /*text-decoration: underline;*/
       text-align: center;
       h4{ color: white;}
@@ -96,6 +116,9 @@
   background-position: center center;
   background-size: cover;
   min-height: 480px;
+  .slider-cover{
+    background-color: rgba(0,0,0,0.4);
+  }
  }
 
 
@@ -128,13 +151,11 @@
   }
 }
 
-h2{
-  font-weight: bold;
-  text-align: center;
-}
 
 .mail-box{
   text-align:center;
+  border: solid 4px;
+  max-width: 350px;
 }
 
 
@@ -145,12 +166,18 @@ image{
 
 .text-box{
   margin-top: 5px;
-  border-radius: 10px;
+  border-radius: 3px;
+  border-color: rgba(0,0,0,0.0);
+  border: solid 6px white;
   max-width: 600px;
   max-height: 460px;
+  background-color: rgba(0,0,0,0.3);
   float: right;
+    display:table;
   .text{
     color:white;
+    h3{text-decoration: underline;}
+    h3,p,label{color:white;margin-left: auto; margin-right: auto;}
   }
 }
 
@@ -158,6 +185,17 @@ image{
 
 .submit{
   margin-bottom: 20px;
+  background-color: #A19B64;
+  height: 2.25rem;
+  padding:10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  min-width: 200px;
+  display: inline-block;
+  &:hover, &:active{
+    background-color: #1E1D21;
+  }
 }
 
 
@@ -208,6 +246,9 @@ image{
   } 
 }
 
-
+h1,h2,h3,h4,h5,h6,p,label{
+  font-family: 'Lato', sans-serif;
+        font-weight: bold;
+}
 
 

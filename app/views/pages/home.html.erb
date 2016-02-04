@@ -4,19 +4,18 @@
         <!-- <h2 class="name">Dillon Cortez</h2>
       <hr> -->
         <div class="photo-icon">
-          <%= image_tag "self_composed_pic_c.jpg", class: "photo-icon" %>
+          <h1>DILLON CORTEZ</h1>
         </div>  
       <!-- <hr> -->
-       <span class="social-icons"> 
-          <a href="https://github.com/grandmasterspoc"><i class="fi-social-github"></i></a>
-          <a href="https://www.linkedin.com/in/dilloncortez"><i class="fi-social-linkedin"></i></a>
-          <a href="http://dilloncortez.vsco.com/"><i class="fi-camera"></i></a>
-        </span>
+       <div class="social-icons"> 
+          <a href="https://github.com/grandmasterspoc"><div class="github small-4 columns"><h6>Github </h6></div></a>
+          <a href="http://dilloncortez.vsco.com/"><div class="vsco small-4 columns"><h6>VSCO</h6></div></a>
+          <a href="https://www.linkedin.com/in/dilloncortez"><div class="linkedin small-4 columns"><h6>LinkedIn </h6></div></a>
+        </div>
       </div>
 </div>    
-<div class="title-text">
-  <h2>I'm Dillon Cortez.</h2> 
-  <h4>I'll build anything you want</h4>
+<div class="title-text"> 
+  <div class="text"><h2>I'll build anything you want</h2></div>
   <span><i class="fi-mobile"></i><i class="fi-monitor"></i><i class="fi-laptop"></i></span> 
 </div>
 
@@ -25,7 +24,7 @@
 <div class="skills">
   <div class="buffer"></div>
   <br>
-  <h2>Because I use</h2>  
+  <div class="skills-title"><h2>Because I use</h2></div>  
 </div>
 <div class="row icon-row">
 <div class="small-4 columns icon-pic">
@@ -143,22 +142,23 @@
 </div>
 
 <div id="slider">
-  <div class="large-12 columns">
+  <div class="slider-cover large-12 columns">
   
     <div class="panel text-box">
         
         <div class="text">
           <br>
-          <h4>Get In Touch</h4>
+          <h3>Let's Be Partners</h3>
           <p>Send me a quick message</p>
           <%= form_for Message.new do |f| %>
-            <%= f.label "Your Name" %>
+            <%= f.label "Name" %>
             <%= f.text_field :name %>
-            <%= f.label "Your number or email" %>
+            <%= f.label "Number or Email" %>
             <%= f.text_field :number %>
             <%= f.label "Message" %>
             <%= f.text_area :text_message %>
-            <%= f.submit "Try it!", class:"submit button" %>
+            <!-- <button class="submit button" type="submit" name="commit"><h6>SEND</h6></button> -->
+            <input type="submit" name="commit" value="Send This Message" class="submit button">
           <% end %>
        </div>
     </div>
@@ -166,9 +166,9 @@
   </div>
 </div>
 
-<div class="mail-box panel">
+<!-- <div class="mail-box">
   <h2>Lets Be Partners</h2>
-</div>    
+</div>   -->  
  
 
 <footer class="row">
