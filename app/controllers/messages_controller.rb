@@ -18,7 +18,7 @@ class MessagesController < ApplicationController
     @message = Message.new(message_params)
     if @message.save
       redirect_to root_path
-      send_validation_message(@message)
+      # send_validation_message(@message)
     else
       render :error
     end  

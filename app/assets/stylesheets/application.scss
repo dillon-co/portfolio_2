@@ -1,4 +1,4 @@
-vertical/*
+/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -81,7 +81,7 @@ vertical/*
       text-align: center;
       h4{ color: white;}
       h2{
-        color:white;
+        color: white;
         font-weight: bold;
       }
     }
@@ -201,11 +201,11 @@ image{
 
 @media screen and (max-width: 640px){
   .icon-pic{
-  img{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+    img{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  } 
 }
 
 
