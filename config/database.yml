@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: programming_portfolio2_production
-  username: programming_portfolio2
-  password: <%= ENV['PROGRAMMING_PORTFOLIO2_DATABASE_PASSWORD'] %>
+  database: portfolio_production
+  username: rails
+  password: <%= ENV['PORTFOLIO_PG_PASSWORD'] %>
